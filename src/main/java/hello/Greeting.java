@@ -5,10 +5,15 @@ import java.util.Map;
 
 public class Greeting {
 
-    private final long id;
-    private final String content;
+    private  long id=1;
+    private  String content="baa";
     private Map<String, String> data;
 
+    
+    public Greeting() {
+    	
+    }
+    
     public Map<String, String> getData() {   	
 		return data;
 	}
